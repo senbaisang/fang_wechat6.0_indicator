@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/actionbar_search_icon"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+
+
+    <item
+        android:id="@+id/menu_group_chat"
+        android:icon="@drawable/menu_group_chat_icon"
+        android:title="@string/menu_group_chat" />
+
+    <item
+        android:id="@+id/menu_group_feedback"
+        android:icon="@drawable/menu_feedback_icon"
+        android:title="@string/menu_group_feedback" />
+
+    <item
+        android:id="@+id/menu_group_add_friend"
+        android:icon="@drawable/menu_add_icon"
+        android:title="@string/menu_group_add_friend" />
+
+    <item
+        android:id="@+id/menu_group_scan"
+        android:icon="@drawable/menu_scan_icon"
+        android:title="@string/menu_group_scan" />
+</menu>
